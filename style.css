@@ -1,0 +1,101 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  background-image: url(img/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+/* Container */
+.square {
+  background-color: rgba(0,0,0,0.4);
+  width: 62vw;
+  height: 91vh;
+  border-radius: 2vh;
+  margin: auto;
+  margin-top: 2vh;
+  position: relative;
+}
+/* Logo e Titolo */
+header {
+  width: 62vw;
+  height: 30vh;
+}
+header>h1 {
+  color: #00dd00;
+  font-size: 24px;
+  text-align: center;
+  position: relative;
+  top: 15vh;
+}
+.logo {
+  height: 11vh;
+  position: relative;
+  left: 24.5vw;
+  top: 13vh;
+}
+/* Navigation Bar */
+nav {
+  background-color: #00dd00;
+  width: 52vw;
+  height: 5vh;
+  margin: auto;
+  margin-top: 0.8vh;
+}
+.nav_buttons {
+  text-align: center;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.nav_buttons>button {
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+button:hover {
+  background-color: #00dd00;
+  color: #ffffff;
+}
+/* Main Section */
+main {
+  color: #ffffff;
+  width: 48vw;
+  height: 50vh;
+  margin-top: 2vh;
+  margin-left:5vw;
+}
+.monopattino {
+  margin-bottom: 1.5vh;
+}
+.monopattino > :first-child:before {
+  content: "\25A0";
+  margin-right: 2px;
+}
+/* Load Bar */
+#l1 {
+  background-color:#F5B453;
+  width: 35%;
+}
+#l2 {
+  background-color: #00DD00;
+  width: 65%;
+}
+#l3 {
+  background-color: #BE4141;
+  width: 15%;
+}
+.load_bar {
+  height: 4vh;
+  border-top-right-radius: 2vh;
+  border-bottom-right-radius: 2vh;
+  margin-left: 1px;
+  margin-bottom: 2vh;
+}
